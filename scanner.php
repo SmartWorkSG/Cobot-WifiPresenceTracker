@@ -93,7 +93,6 @@ class Scanner {
 				'headers' => [
 					'Authorization' => 'Bearer ' . $this->config['accessToken'],
 				],
-				'proxy' => 'localhost:8888',
 				'verify' => false,
 			]
 		);
@@ -112,7 +111,6 @@ class Scanner {
 				'headers' => [
 					'Authorization' => 'Bearer ' . $this->config['accessToken'],
 				],
-				'proxy' => 'localhost:8888',
 				'verify' => false,
 			]
 		);
